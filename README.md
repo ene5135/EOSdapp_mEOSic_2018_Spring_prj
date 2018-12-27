@@ -1,11 +1,15 @@
-# CTS2018 team4 Eos dapp
+# 블록체인기반 음원 스트리밍 서비스  
+CTS2018 team4 EOS dapp  
+EOS : dawn 4.2  
+eosjs : 13.0.0  
+scatter : 4.0.3  
 
-EOS : dawn 4.2
-eosjs : 13.0.0
-scatter : 4.0.3
+EOS 블록체인, 웹, scatter(chrome extension) 을 이용한 음원 스트리밍 서비스  
+더 자세한 사항은 [보고서](https://github.com/ene5135/eosdapp/blob/master/final_report.pdf)를 참고하세요.
 
-1. EOS 빌드 및 nodeos 구동 : 튜토리얼 참고 (빌드 후 build 폴더에서 sudo make install 까지 해줘야함)
-1-1. nodeos config 설정 : /.local/share/eosio??/..../config.ini 경로가 기억이 잘 안나는데 여기에서 주석처리되어있는 Allow-access-Origin? 뭐 이런 옵션 있는데 그거 값 *로 주기
+### 작동법 (Local network, Local blockchain)  
+1. EOS 빌드 및 nodeos 구동 : EOS 튜토리얼 참고 (빌드 후 build 폴더에서 sudo make install 까지 해줘야함)  
+1-1. nodeos config 설정 : 주석처리되어있는 Allow-access-Origin 옵션 값 *로 변경
 2. 프론트 서버 구동 : frontend/music_web 폴더에서 npm install 후 npm start
 3. 크롬 extension Scatter 설치
 4. scatter에 네트워크 등록 : 프론트 서버 구동 후 켜진 localhost:3000 페이지에서 add network 누르고 켜진 창에서 accept
