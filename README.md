@@ -4,7 +4,18 @@ EOS : dawn 4.2
 eosjs : 13.0.0  
 scatter : 4.0.3  
 
-EOS 블록체인, 웹, scatter(chrome extension) 을 이용한 음원 스트리밍 서비스  
+### EOS 블록체인, 웹, scatter(chrome extension) 을 이용한 음원 스트리밍 서비스  
+### Architecture  
+![](https://github.com/ene5135/EOSdapp_mEOSic_2018_Spring_prj/blob/master/architecture.jpg)  
+### 홈 화면  
+![](https://github.com/ene5135/EOSdapp_mEOSic_2018_Spring_prj/blob/master/home.jpg)  
+### Scatter 사용  
+![](https://github.com/ene5135/EOSdapp_mEOSic_2018_Spring_prj/blob/master/scatter.jpg)  
+### Upload 화면  
+![](https://github.com/ene5135/EOSdapp_mEOSic_2018_Spring_prj/blob/master/upload.jpg)  
+### Search 화면  
+![](https://github.com/ene5135/EOSdapp_mEOSic_2018_Spring_prj/blob/master/search.jpg)  
+
 더 자세한 사항은 [보고서](https://github.com/ene5135/eosdapp/blob/master/final_report.pdf)를 참고하세요.
 
 ### 작동법 (Local network, Local blockchain)  
