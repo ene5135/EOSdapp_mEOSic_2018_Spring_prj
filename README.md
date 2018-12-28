@@ -7,14 +7,24 @@ scatter : 4.0.3
 ### EOS 블록체인, 웹, scatter(chrome extension) 을 이용한 음원 스트리밍 서비스  
 ### Architecture  
 ![](https://github.com/ene5135/EOSdapp_mEOSic_2018_Spring_prj/blob/master/architecture.jpg)  
+- 사용자는 웹 페이지를 통해 음원 업로드, 검색, 재생 요청을 보냅니다.  
+- 웹 서버는 이러한 요청을 블록체인으로 전달하고 응답을 다시 유저에게 전달합니다.  
+- 실제 음원 데이터는 IPFS 시스템에 저장되고, 블록체인 Smart Contract상에는 IPFS 해쉬주소가 저장됩니다.  
+
 ### 홈 화면  
 ![](https://github.com/ene5135/EOSdapp_mEOSic_2018_Spring_prj/blob/master/home.jpg)  
 ### Scatter 사용  
 ![](https://github.com/ene5135/EOSdapp_mEOSic_2018_Spring_prj/blob/master/scatter.jpg)  
+- 본 서비스는 Scatter라는 chrome extension을 사용합니다. 보다 편하게 권한과 키를 관리하세요.  
+
 ### Upload 화면  
 ![](https://github.com/ene5135/EOSdapp_mEOSic_2018_Spring_prj/blob/master/upload.jpg)  
+- 음원 파일을 업로드 할 수 있습니다. 제목과 가수이름을 입력하고 파일을 지정한 후 업로드 합니다.  
+
 ### Search 화면  
 ![](https://github.com/ene5135/EOSdapp_mEOSic_2018_Spring_prj/blob/master/search.jpg)  
+- 음원을 검색할 수 있습니다. 음원 제목으로 검색하면 아랫쪽에 결과가 나타납니다.  
+- 결과를 클릭하면 음원이 재생됩니다.  
 
 더 자세한 사항은 [보고서](https://github.com/ene5135/eosdapp/blob/master/final_report.pdf)를 참고하세요.
 
